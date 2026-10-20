@@ -345,3 +345,25 @@ img { height: auto; }
 .footer-column .protected-email, .footer-column .revealed-email { color: #d6e5f0; font-size: .88rem; font-weight: 400; }
 .footer-column .protected-email:hover, .footer-column .protected-email:focus-visible, .footer-column .revealed-email:hover, .footer-column .revealed-email:focus-visible { color: white; }
 .footer-column .email-noscript { color: #d6e5f0; font-size: .82rem; font-weight: 400; }
+
+/* Fixed decision-card tracks keep parallel options comparable without forcing copy breaks. */
+@media (min-width: 601px) {
+  .pathway-card {
+    display: grid;
+    grid-template-rows: 4rem 2.3rem minmax(4.65rem, 1fr) auto;
+    align-items: start;
+  }
+  .pathway-top { min-block-size: 0; block-size: 4rem; }
+  .pathway-card h3 { min-block-size: 0; margin: 0 0 .85rem; }
+  .pathway-card > p:not(.pathway-fit) { min-block-size: 0; margin: 0; }
+  .pathway-card .text-link { align-self: start; margin-top: 1.35rem; }
+}
+
+/* Supplied evergreen studio photography. */
+.inner-hero-photo--contact img { object-fit: contain; background: #eaf5fb; }
+.float-feature { display: grid; grid-template-columns: minmax(0, .82fr) minmax(18rem, 1.18fr); gap: clamp(2rem, 7vw, 7rem); align-items: center; }
+.float-feature-copy { max-width: 36rem; }
+.float-feature-copy > p:not(.eyebrow) { font-size: 1.05rem; }
+.float-feature-photo { margin: 0; overflow: hidden; border-radius: 0 1rem 1rem 1rem; background: #eaf5fb; box-shadow: var(--shadow); }
+.float-feature-photo img { width: 100%; height: auto; display: block; }
+@media (max-width: 760px) { .float-feature { grid-template-columns: 1fr; gap: 2rem; }.float-feature-photo { order: -1; } }
