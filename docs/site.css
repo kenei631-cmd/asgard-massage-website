@@ -334,3 +334,14 @@ img { height: auto; }
 .hero-actions { margin-bottom: .7rem; }
 .hero-review-proof { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: .3rem; margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; color: var(--slate); box-shadow: none; font-size: .8rem; line-height: 1.35; }.hero-review-stars { color: #c98600; font-size: .83rem; letter-spacing: .035em; white-space: nowrap; }.hero-review-rating { color: var(--slate); font-weight: 700; }.hero-review-divider { color: #97a9b8; }.hero-review-link { color: var(--slate); font-weight: 650; text-decoration: underline; text-decoration-color: #b6c7d4; text-decoration-thickness: 1px; text-underline-offset: .16em; transition: color .2s, text-decoration-color .2s; }.hero-review-link:hover, .hero-review-link:focus-visible { color: var(--ocean); text-decoration-color: currentColor; }
 @media (max-width: 600px) { .hero-offer { display: block; line-height: 1.5; }.hero-offer span, .hero-offer strong { display: block; }.hero-review-proof { gap: .25rem; } }
+
+
+/* Visitor-triggered email reveal: no full address is present in static public markup. */
+.protected-email { display: inline; margin: 0; padding: 0; border: 0; color: var(--ocean); background: transparent; font: inherit; font-size: 1.12rem; font-weight: 760; line-height: inherit; text-align: left; text-decoration: underline; text-decoration-color: #b6d4e4; text-decoration-thickness: 1px; text-underline-offset: .16em; cursor: pointer; transition: color .2s, text-decoration-color .2s; }
+.protected-email:hover, .protected-email:focus-visible { color: var(--navy); text-decoration-color: currentColor; }
+.revealed-email { color: var(--ocean); font-weight: 760; text-decoration: underline; text-decoration-color: #b6d4e4; text-decoration-thickness: 1px; text-underline-offset: .16em; }
+.revealed-email:hover, .revealed-email:focus-visible { color: var(--navy); text-decoration-color: currentColor; }
+.email-noscript { display: block; margin-top: .45rem; color: var(--ocean); font-size: .88rem; font-weight: 700; }
+.footer-column .protected-email, .footer-column .revealed-email { color: #d6e5f0; font-size: .88rem; font-weight: 400; }
+.footer-column .protected-email:hover, .footer-column .protected-email:focus-visible, .footer-column .revealed-email:hover, .footer-column .revealed-email:focus-visible { color: white; }
+.footer-column .email-noscript { color: #d6e5f0; font-size: .82rem; font-weight: 400; }

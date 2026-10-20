@@ -69,6 +69,8 @@ The homepage will publish a shared `HealthAndBeautyBusiness` entity with the pro
 
 The site uses semantic static HTML, responsive CSS, and dependency-free JavaScript. It retains direct external links to the existing Mindbody booking experience and Locbox gift certificates. No contact form will be added until a validated form integration and delivery destination are available. The full preserved source library stays outside the public deployment directory; only approved current-site assets are copied into `docs/assets/`.
 
+The approved studio email is a human-only contact method. It must not appear in static HTML, static mail links, metadata, schema, sitemap, or publicly committed prose. Visitors will activate a keyboard-accessible “Reveal email address” control; only that activated browser session receives a visible, clickable email link. The no-JavaScript fallback directs visitors to call the studio instead. This lowers ordinary crawler and source-scraper exposure, although no client-side obfuscation can guarantee secrecy from a determined automated actor.
+
 ## Publication
 
 The `docs/` directory is validated before source is committed and deployed. Netlify hosts the staged static build. Existing `asgardmassage.com` DNS will not be changed until the owner separately approves the final cutover. At that cutover, Netlify will be assigned the domain, staging robots controls will be changed to allow crawling, the production sitemap will be submitted in Google Search Console, and the active business facts and integrations will be rechecked.
