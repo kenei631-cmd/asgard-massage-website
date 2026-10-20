@@ -328,3 +328,9 @@ img { height: auto; }
   .pathway-grid { grid-template-columns: 1fr; }
   .pathway-recovery { grid-column: auto; }
 }
+
+/* Homepage offer and review-proof treatment. */
+.hero-offer { display: inline-flex; flex-wrap: wrap; gap: .35rem; align-items: baseline; margin: -.25rem 0 1.25rem; color: var(--navy); font-size: clamp(1.02rem, 1.4vw, 1.18rem); line-height: 1.35; }.hero-offer span { color: var(--slate); }.hero-offer strong { color: var(--ocean); font-weight: 800; }
+.hero-actions { margin-bottom: 1rem; }
+.hero-review-proof { width: fit-content; max-width: 100%; display: inline-flex; align-items: center; gap: .62rem; padding: .65rem .8rem; border: 1px solid rgba(0,108,168,.21); border-radius: .5rem; background: rgba(255,255,255,.68); color: var(--navy); box-shadow: 0 7px 16px rgba(28,69,104,.06); transition: transform .2s, background .2s, box-shadow .2s; }.hero-review-proof:hover { transform: translateY(-2px); background: white; box-shadow: 0 11px 21px rgba(28,69,104,.12); }.hero-review-stars { color: #d98c00; font-size: 1rem; letter-spacing: .05em; white-space: nowrap; }.hero-review-copy { display: grid; gap: .04rem; text-align: left; line-height: 1.15; }.hero-review-copy strong { color: var(--navy); font-size: .86rem; }.hero-review-copy span { color: var(--slate); font-size: .76rem; }.hero-review-arrow { margin-left: .15rem; color: var(--ocean); font-size: .9rem; font-weight: 800; }
+@media (max-width: 600px) { .hero-offer { display: block; line-height: 1.5; }.hero-offer span, .hero-offer strong { display: block; }.hero-review-proof { width: 100%; }.hero-review-copy { flex: 1; } }
