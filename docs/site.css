@@ -374,3 +374,15 @@ img { height: auto; }
   .hero-copy-home h1 { max-width: none; font-size: clamp(1.5rem, 8.2vw, 2.6rem); letter-spacing: -.05em; }
   .hero-headline-line { display: block; white-space: nowrap; }
 }
+
+/* Confirmed service-page photography and information layouts. */
+.inner-hero-photo--deep-tissue { --photo-focus-desktop: 82% center; --photo-focus-mobile: 84% center; }
+.inner-hero-photo--sports { --photo-focus-desktop: 80% center; --photo-focus-mobile: 82% center; }
+.inner-hero-photo--prenatal { --photo-focus-desktop: 82% center; --photo-focus-mobile: 84% center; }
+.inner-hero-photo--swedish { --photo-focus-desktop: 80% center; --photo-focus-mobile: 82% center; }
+.inner-hero-photo--float { --photo-focus-desktop: center center; --photo-focus-mobile: center center; }
+.inner-hero-photo--float img { object-fit: contain; background: #eaf5fb; }
+.inner-hero--single { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+.inner-hero--single > div:first-child { max-width: min(46rem, 100%); }
+.reading-measure { max-width: 47rem; }
+.related-links { display: grid; gap: .8rem; margin-top: 1.5rem; }
