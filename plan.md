@@ -22,7 +22,7 @@ The current public website is the source for business content, service descripti
 
 **Interaction and animation.** Navigation, buttons, and disclosure panels respond quickly and subtly. Motion is limited to gentle entrance transitions and header state changes; `prefers-reduced-motion` disables nonessential motion.
 
-**Typography.** A clear, humanist system sans stack supports scanability. The authentic logo remains an image asset. Large headings use a strong but approachable weight; body copy is relaxed, short, and plainspoken.
+**Typography.** A clear, humanist system sans stack supports scanability. The authentic logo remains an image asset. Large headings use a strong but approachable weight; body copy is relaxed, short, and plainspoken. On the mobile homepage, the hero promise is deliberately composed as two semantic lines—“Get back to” and “feeling like yourself.”—with the type scale reduced only as needed to keep the second line inside narrow phone viewports.
 
 **Brand essence.** Customized local massage care that helps Arlington-area clients feel like themselves again. Personality: reassuring, capable, down-to-earth.
 

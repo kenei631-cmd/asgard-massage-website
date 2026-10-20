@@ -367,3 +367,10 @@ img { height: auto; }
 .float-feature-photo { margin: 0; overflow: hidden; border-radius: 0 1rem 1rem 1rem; background: #eaf5fb; box-shadow: var(--shadow); }
 .float-feature-photo img { width: 100%; height: auto; display: block; }
 @media (max-width: 760px) { .float-feature { grid-template-columns: 1fr; gap: 2rem; }.float-feature-photo { order: -1; } }
+
+/* The home-page promise is intentionally composed as two calm, readable lines. */
+.hero-copy-home h1 { max-width: none; }
+.hero-headline-line { display: block; white-space: nowrap; }
+@media (max-width: 760px) {
+  .hero-copy-home h1 { font-size: clamp(1.5rem, 8.2vw, 2.6rem); letter-spacing: -.05em; }
+}
