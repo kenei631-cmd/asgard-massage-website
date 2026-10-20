@@ -184,3 +184,89 @@ img { height: auto; }
   .image-panel img,
   .team-tease-image img { width: 100%; }
 }
+
+/* Authentic source photography replaces decorative placeholder panels. */
+.inner-hero-photo,
+.plan-photo,
+.membership-photo,
+.gift-card-photo {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  background: var(--pale);
+  box-shadow: var(--shadow);
+}
+.inner-hero-photo {
+  min-height: 26rem;
+}
+.inner-hero-photo img,
+.plan-photo img,
+.membership-photo img,
+.gift-card-photo > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: var(--photo-focus-desktop, center center);
+}
+.inner-hero-photo--about { --photo-focus-desktop: center 26%; --photo-focus-mobile: center 22%; }
+.inner-hero-photo--contact { --photo-focus-desktop: center center; --photo-focus-mobile: center center; }
+.inner-hero-photo--wellness { --photo-focus-desktop: center center; --photo-focus-mobile: center center; }
+.inner-hero-photo--reviews { --photo-focus-desktop: center center; --photo-focus-mobile: center center; }
+.plan-photo {
+  min-height: 23rem;
+  border-radius: 0 1.4rem 1.4rem 1.4rem;
+}
+.plan-photo--journey { --photo-focus-desktop: center 40%; --photo-focus-mobile: center 35%; }
+.plan-photo--first-visit { --photo-focus-desktop: center 40%; --photo-focus-mobile: center 35%; }
+.plan-photo--membership { --photo-focus-desktop: center center; --photo-focus-mobile: center center; }
+.membership-photo {
+  width: min(100%, 24rem);
+  min-height: 16rem;
+  justify-self: end;
+  border-radius: 1rem 1rem 1rem .2rem;
+}
+.membership-photo--regular-care { --photo-focus-desktop: center center; --photo-focus-mobile: center center; }
+.gift-card-photo {
+  min-height: 20rem;
+  border-radius: 1.25rem;
+}
+.gift-card-photo figcaption {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 4rem 1.5rem 1.5rem;
+  background: linear-gradient(transparent, rgba(18, 47, 74, .9));
+  color: white;
+}
+.gift-card-photo figcaption p {
+  margin-bottom: .6rem;
+  color: white;
+  font-size: 1.02rem;
+}
+.gift-card-photo figcaption a {
+  color: white;
+  font-weight: 750;
+}
+@media (max-width: 760px) {
+  .inner-hero-photo {
+    min-height: 18rem;
+  }
+  .inner-hero-photo img,
+  .plan-photo img,
+  .membership-photo img,
+  .gift-card-photo > img {
+    object-position: var(--photo-focus-mobile, var(--photo-focus-desktop, center center));
+  }
+  .plan-photo {
+    min-height: 16rem;
+  }
+  .membership-photo {
+    width: 100%;
+    min-height: 15rem;
+    justify-self: stretch;
+  }
+  .gift-card-photo {
+    min-height: 18rem;
+  }
+}
