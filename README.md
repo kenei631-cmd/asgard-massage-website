@@ -9,6 +9,7 @@ The published content is directory-based and uses one preferred trailing-slash U
 - /
 - /services/
 - /wellness-massage/
+- /deep-tissue-massage/
 - /medical-massage/
 - /wellness-program/
 - /meet-the-massage-therapists/
@@ -24,7 +25,7 @@ The static files use relative directory links, so a subdirectory preview can ren
 
 ## Included content
 
-The build contains a booking-focused homepage and human-readable pages for massage services, wellness massage, medical-massage scheduling information, the Wellness Program, therapists, About, first visit, reviews, gift certificates, and contact/location. It keeps the current Mindbody booking URL and Locbox gift-certificate URL. No contact form is included; one should be added only after its provider, receipt destination, and delivery workflow are verified.
+The build contains a booking-focused homepage and human-readable pages for massage services, wellness massage, phased Deep Tissue Massage information, medical-massage scheduling information, the Wellness Program, therapists, About, first visit, reviews, gift certificates, and contact/location. It keeps the current Mindbody booking URL and Locbox gift-certificate URL. No contact form is included; one should be added only after its provider, receipt destination, and delivery workflow are verified.
 
 ## Visual sources
 
