@@ -7,3 +7,4 @@ Thumbs.db
 # Local server and test artifacts
 *.log
 coverage/
+.netlify/
