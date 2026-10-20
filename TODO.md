@@ -7,5 +7,5 @@
 - [x] Publish route and search-discovery files: `docs/manus-routes.json`, `docs/sitemap.xml`, `docs/robots.txt`, unique page metadata, and LocalBusiness JSON-LD without third-party review schema. Staging indexing remains blocked until domain cutover.
 - [x] Validate the finished static site and inspect the Netlify-rendered live page before publishing source changes to GitHub and Netlify.
 - [x] Create the user-approved Netlify custom site, deploy the static project, and report its assigned URL. Do not change the `asgardmassage.com` DNS without a separate explicit approval.
-- [ ] Replace the oversized legacy heart-image treatment in “Make room for regular care” with a compact responsive membership panel. Ensure content imagery keeps its natural proportions outside intentional hero crops and does not distort the page layout.
+- [x] Replace the oversized legacy heart-image treatment in “Make room for regular care” with a compact responsive membership panel. Ensure content imagery keeps its natural proportions outside intentional hero crops and does not distort the page layout.
 - [ ] Before production cutover, confirm the public business name, current hours, session menu and offer, membership terms, active therapist roster, therapist specialties/headshots, float/sauna status, and any staff-photo or video permissions.
