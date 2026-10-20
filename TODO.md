@@ -8,5 +8,5 @@
 - [x] Validate the finished static site and inspect the Netlify-rendered live page before publishing source changes to GitHub and Netlify.
 - [x] Create the user-approved Netlify custom site, deploy the static project, and report its assigned URL. Do not change the `asgardmassage.com` DNS without a separate explicit approval.
 - [x] Replace the oversized legacy heart-image treatment in “Make room for regular care” with a compact responsive membership panel. Ensure content imagery keeps its natural proportions outside intentional hero crops and does not distort the page layout.
-- [ ] Replace the inherited white-matte logo in every header with a transparent blue logo. Remove the footer’s white logo box and use a transparent light reverse logo on its navy background.
+- [x] Replace the inherited white-matte logo in every header with a transparent blue logo. Remove the footer’s white logo box and use a transparent light reverse logo on its navy background.
 - [ ] Before production cutover, confirm the public business name, current hours, session menu and offer, membership terms, active therapist roster, therapist specialties/headshots, float/sauna status, and any staff-photo or video permissions.
