@@ -1,0 +1,9 @@
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local server and test artifacts
+*.log
+coverage/
