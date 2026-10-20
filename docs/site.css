@@ -368,9 +368,9 @@ img { height: auto; }
 .float-feature-photo img { width: 100%; height: auto; display: block; }
 @media (max-width: 760px) { .float-feature { grid-template-columns: 1fr; gap: 2rem; }.float-feature-photo { order: -1; } }
 
-/* The home-page promise is intentionally composed as two calm, readable lines. */
-.hero-copy-home h1 { max-width: none; }
-.hero-headline-line { display: block; white-space: nowrap; }
+/* The home-page promise is intentionally composed as two calm, readable lines only on phones. */
+.hero-headline-line { display: inline; }
 @media (max-width: 760px) {
-  .hero-copy-home h1 { font-size: clamp(1.5rem, 8.2vw, 2.6rem); letter-spacing: -.05em; }
+  .hero-copy-home h1 { max-width: none; font-size: clamp(1.5rem, 8.2vw, 2.6rem); letter-spacing: -.05em; }
+  .hero-headline-line { display: block; white-space: nowrap; }
 }
