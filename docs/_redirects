@@ -1,0 +1,40 @@
+# Temporary static URLs replaced by preferred directory-style canonicals
+/index.html  /  301!
+/services.html  /services/  301!
+/wellness-massage.html  /wellness-massage/  301!
+/medical-massage.html  /medical-massage/  301!
+/membership.html  /wellness-program/  301!
+/therapists.html  /meet-the-massage-therapists/  301!
+/about.html  /about/  301!
+/first-visit.html  /first-visit/  301!
+/reviews.html  /reviews/  301!
+/gift-certificates.html  /gift-certificates/  301!
+/contact.html  /contact/  301!
+
+# Useful WordPress migration paths
+/schedule-an-appointment/  https://clients.mindbodyonline.com/classic/ws?studioid=146663&stype=-9  301!
+/team/  /meet-the-massage-therapists/  301!
+/steffen-emard/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/tom/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/summer/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/stephanie/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/sarah/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/pam/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/paige/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/michael/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/lorallynn/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/lenora/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/kelsy/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/jazmine/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/jarrod/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/jacob/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/hannah/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/carrie/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/caitlyn/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/brittany/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/sucely/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/jacqueline/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/celeste/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/steffen-emard/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/emily-farmer/  /meet-the-massage-therapists/  301!
+/meet-the-massage-therapists/lori-sykas/  /meet-the-massage-therapists/  301!
