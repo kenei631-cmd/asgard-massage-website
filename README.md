@@ -1,35 +1,31 @@
-# Asgard Massage Website
+﻿# Asgard Massage website rebuild
 
-A responsive, plain HTML/CSS/JavaScript homepage for **Asgard Massage** in Arlington and Smokey Point, Washington. It is intentionally dependency-free so it can be previewed locally and deployed through GitHub Pages or any static host.
+A static, multi-page rebuild for Asgard Massage in Arlington, Washington. The site uses the current live sailboat logo, its inherited ocean-blue palette, and selected current-site imagery. The content is organized around a clear BrandScript journey where the client is the hero and the next step is always clear.
 
-## Files
+## Included pages
 
-- `index.html` — page content, links, semantic markup, and local-business structured data.
-- `styles.css` — responsive design system and mobile layout.
-- `script.js` — mobile navigation, sticky-header state, and automatic copyright year.
-- `favicon.svg` — lightweight SVG browser icon.
-- `robots.txt` and `sitemap.xml` — search-engine files for the eventual production domain.
+The build contains a booking-focused homepage and human-readable pages for massage services, wellness massage, medical-massage scheduling information, the Wellness Program, therapists, About, first visit, reviews, gift certificates, and contact/location. It keeps the current Mindbody booking URL and Locbox gift-certificate URL.
+
+No contact form is included. A form should only be added after its provider, receipt destination, and delivery workflow are verified.
+
+## Visual sources
+
+The `docs/assets/` directory contains only the selected current-site logo and imagery used on the public site. The complete preserved current-site visual archive, video library, source URLs, dimensions, and metadata remain outside this repository in the taskâ€™s source-asset manifest. Do not add all legacy assets to deployment without checking present-day branding, rights, and page purpose.
 
 ## Local preview
 
-Open `index.html` in a browser for a quick preview. For a local web server from this folder, run:
+From the `docs/` directory, serve the static files locally:
 
 ```powershell
-py -m http.server 8080
+py -m http.server 8080 --bind 127.0.0.1
 ```
 
-Then visit `http://localhost:8080`.
+Then use the local preview provided by the development environment. The declared site routes are available at `/manus-routes.json` from the `docs/` deployment root. This project has no package or build dependency.
 
-## Publishing through GitHub Pages
+## Netlify
 
-1. Push this repository to GitHub.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Choose the `main` branch and `/ (root)` folder, then save.
-5. When the domain is ready, connect `asgardmassage.com` through the domain registrar and GitHub Pages custom-domain settings. Update the `sitemap.xml` and schema URL only if the final public domain differs.
+`netlify.toml` deploys the dedicated `docs/` public directory directly with `true` as the build command. It provides safe baseline security headers and cache directives. Creating or selecting a Netlify site and connecting its assigned URL are separate from changing the existing `asgardmassage.com` DNS. Do not move the existing domain until the owner explicitly approves a final cutover.
 
-## Content details to verify before launch
+## Before production cutover
 
-The public audit found conflicting third-party listings. Before publishing, confirm the exact business name, weekly hours—especially Sunday—current price menu, weekend premium, active therapist roster, and whether float therapy and infrared sauna belong in the public offer. Replace the team-page link with a new on-site directory after current staff headshots and specialties are confirmed.
-
-The current booking, directions, gift-certificate, phone, email, address, service, and membership details were sourced from the existing public website and public listings as of October 2026. Re-test every external link before public launch.
+Confirm the public business name, weekly hours, current session menu, first-visit offer, Wellness Program terms, active therapist roster, therapist specialties/headshots, float/sauna status, and photo/video permissions. Retest Mindbody, Locbox, telephone, email, and directions links. Update `sitemap.xml` and relevant metadata when the final `asgardmassage.com` domain cutover is approved.
