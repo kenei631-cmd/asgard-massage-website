@@ -386,3 +386,15 @@ img { height: auto; }
 .inner-hero--single > div:first-child { max-width: min(46rem, 100%); }
 .reading-measure { max-width: 47rem; }
 .related-links { display: grid; gap: .8rem; margin-top: 1.5rem; }
+
+/* Service-page hero figures always fill their reserved visual column. */
+.inner-hero-photo > img {
+  width: 100%;
+  height: 100% !important;
+  min-height: 100%;
+  object-fit: cover !important;
+}
+.inner-hero-photo--float > img {
+  min-height: 0;
+  object-fit: contain !important;
+}
